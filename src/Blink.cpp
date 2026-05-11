@@ -45,12 +45,12 @@ void Blink::sos() {
 
 void Blink::fade() {
   for(int i=0;i<255;i++){
-    analogWrite(BLINK_LED_PIN,i);
+    analogWrite(BLINK_LED_PIN, i);
     delay(5);
   }
 
   for(int i=255;i>0;i--){
-    analogWrite(BLINK_LED_PIN,i);
+    analogWrite(BLINK_LED_PIN, i);
     delay(5);
   }
 }
