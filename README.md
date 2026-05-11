@@ -29,7 +29,7 @@ Supports:
 - Arduino Due
 
 
-# 2. :contentReference[oaicite:14]{index=14} ESP8266
+# 2. ESP8266
 - NodeMCU ESP8266
 - Wemos D1 Mini
 - ESP-01
@@ -37,7 +37,7 @@ Supports:
 - Adafruit HUZZAH ESP8266
 
 
-# 3. :contentReference[oaicite:20]{index=20} ESP32
+# 3. ESP32
 
 ## ESP32 Classic
 - ESP32 DevKit V1
@@ -52,7 +52,7 @@ Supports:
 - ESP32-H2 DevKit
 
 
-# 4. :contentReference[oaicite:29]{index=29} Raspberry Pi Pico
+# 4. Raspberry Pi Pico
 - Raspberry Pi Pico
 - Raspberry Pi Pico W
 - Raspberry Pi Pico 2
@@ -64,7 +64,7 @@ Supports:
 - SparkFun Pro Micro RP2040
 
 
-# 5. :contentReference[oaicite:37]{index=37} STM32
+# 5. STM32
 
 ## Blue Pill / Black Pill
 - STM32F103C8T6 Blue Pill
