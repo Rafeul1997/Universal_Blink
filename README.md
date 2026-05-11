@@ -1,1 +1,108 @@
-# Universal_Blink
+# Universal Blink
+
+Universal built-in LED blink library.
+
+No need to manually set built-in LED pin.
+Just select your board and upload.
+
+Supports:
+
+# 1. :contentReference[oaicite:0]{index=0} Boards
+
+## Classic AVR
+- Arduino Uno R3
+- Arduino Nano
+- Arduino Mega 2560
+- Arduino Leonardo
+- Arduino Micro
+- Arduino Pro Mini
+- Arduino Mini
+
+## Modern Arduino
+- Arduino Uno R4 Minima
+- Arduino Uno R4 WiFi
+- Arduino Nano Every
+- Arduino Nano 33 IoT
+- Arduino Nano 33 BLE
+- Arduino Due
+
+
+# 2. :contentReference[oaicite:14]{index=14} ESP8266
+- NodeMCU ESP8266
+- Wemos D1 Mini
+- ESP-01
+- ESP-12E
+- Adafruit HUZZAH ESP8266
+
+
+# 3. :contentReference[oaicite:20]{index=20} ESP32
+
+## ESP32 Classic
+- ESP32 DevKit V1
+- NodeMCU-32S
+- DOIT ESP32 DevKit
+
+## ESP32 Variants
+- ESP32-S2 DevKit
+- ESP32-S3 DevKit
+- ESP32-C3 DevKit
+- ESP32-C6 DevKit
+- ESP32-H2 DevKit
+
+
+# 4. :contentReference[oaicite:29]{index=29} Raspberry Pi Pico
+- Raspberry Pi Pico
+- Raspberry Pi Pico W
+- Raspberry Pi Pico 2
+- Raspberry Pi Pico 2 W
+
+## Third-party RP2040
+- Adafruit Feather RP2040
+- Seeed XIAO RP2040
+- SparkFun Pro Micro RP2040
+
+
+# 5. :contentReference[oaicite:37]{index=37} STM32
+
+## Blue Pill / Black Pill
+- STM32F103C8T6 Blue Pill
+- STM32F401 Black Pill
+- STM32F411 Black Pill
+
+## Nucleo
+- NUCLEO-F103RB
+- NUCLEO-F401RE
+- NUCLEO-L432KC
+
+## Discovery
+- STM32F4 Discovery
+- STM32L4 Discovery
+
+
+# Features
+- Basic Blink
+- Non Blocking Blink
+- SOS Blink
+- Fade Blink
+
+
+# Usage
+1. Open any example
+2. Uncomment your board
+3. Upload
+
+
+Example:
+
+```cpp
+#include <Blink.h>
+
+Blink led;
+
+void setup() {
+  led.begin();
+}
+
+void loop() {
+  led.blink(500,500);
+}
