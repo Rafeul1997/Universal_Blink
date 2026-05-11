@@ -1,4 +1,4 @@
-# Blink
+# Universal Blink
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Platform](https://img.shields.io/badge/platform-Arduino-orange.svg) ![Boards](https://img.shields.io/badge/boards-40%2B-brightgreen.svg)
 
