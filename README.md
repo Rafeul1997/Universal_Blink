@@ -9,7 +9,7 @@ Just select your board and upload.
 
 Supports:
 
-# 1. :contentReference[oaicite:0]{index=0} Boards
+# 1. Boards  ![Boards](https://img.shields.io/badge/boards-40%2B-brightgreen.svg)
 
 ## Classic AVR
 - Arduino Uno R3
