@@ -1,0 +1,6 @@
+Blink	KEYWORD1
+begin	KEYWORD2
+blink	KEYWORD2
+nonBlocking	KEYWORD2
+sos	KEYWORD2
+fade	KEYWORD2
